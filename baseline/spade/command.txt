@@ -1,0 +1,5 @@
+[train]
+python train.py --name floorplan --dataset_mode custom --label_dir ./datasets/floorplan_all/train_label -- image_dir ./datasets/floorplan_all/train_img --label_nc 3
+
+[test]
+python test.py --name floorplan --dataset_mode custom --dataroot ./datasets/floorplan_final_result/test_label --label_dir ./datasets/floorplan_final_result/test_label --image_dir ./datasets/floorplan_final_result/test_img

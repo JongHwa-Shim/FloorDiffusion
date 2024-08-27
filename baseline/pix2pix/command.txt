@@ -1,0 +1,8 @@
+[construct dataset]
+python datasets/combine_A_and_B.py --fold_A ./datasets/floorplan_final_result/A --fold_B ./datasets/floorplan_final_result/B --fold_AB ./datasets/floorplan_final_result/AB
+
+[train]
+python train.py --dataroot ./datasets/floorplan_all/AB --name floorplan_pix2pix --model pix2pix --direction AtoB
+
+[test]
+python test.py --dataroot ./datasets/floorplan_all/AB --name floorplan_pix2pix --model pix2pix --direction AtoB
