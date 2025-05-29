@@ -1,3 +1,4 @@
+- Notice: VAE fine-tuning related source code are ablated because of follow-up research security
 # FloorDiffusion: Diffusion model-based conditional floorplan image generation method using parameter-efficient fine-tuning and image inpainting
 ## Paper Information
 Publicaiton Journal: Journal of Building Engineering   
